@@ -5,40 +5,93 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./Assets/CSS/navbar.css">
+    <link rel="stylesheet" href="./Assets/CSS/products.css">
     <link rel="stylesheet" href="./Assets/CSS/styles.css">
     <title>Task 2: Products Cards Page</title>
 </head>
+
 <body>
+
+
+    <nav id="navbar" class="navbar">
+        <div class="logo">Products Cards Page</div>
+
+        <button class="hamburger" id="hamburger" aria-label="Open navigation menu" aria-expanded="false"
+            aria-controls="nav-links" type="button">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <ul class="nav-links" id="nav-links">
+            <li class="nav-item"><a href="#">Home</a></li>
+            <li class="nav-item"><a href="#">About</a></li>
+            <li class="nav-item"><a href="#">Services</a></li>
+            <li class="nav-item"><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+
+
+    <section id="products" class="products">
+        <div class="product-card">
+            <div class="porduct-card-container">
+                <h3 class="product-name">Apples</h3>
+                <img src="./Assets/images/product1.jpg" alt="Product 1" class="product-image">
+                <div class="product-details">
+                    <p class="product-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <p class="product-price">$19.99</p>
+                    <button class="buy-now">Buy Now</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <div class="porduct-card-container">
+                <h3 class="product-name">Oranges</h3>
+                <img src="./Assets/images/product2.jpg" alt="Product 2" class="product-image">
+                <div class="product-details">
+                    <p class="product-description">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </p>
+                    <p class="product-price">$29.99</p>
+                    <button class="buy-now">Buy Now</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <div class="porduct-card-container">
+                <h3 class="product-name">Pineapples</h3>
+                <img src="./Assets/images/product3.jpg" alt="Product 3" class="product-image">
+                <div class="product-details">
+                    <p class="product-description">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </p>
+                    <p class="product-price">$29.99</p>
+                    <button class="buy-now">Buy Now</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <div class="porduct-card-container">
+                <h3 class="product-name">Grapes</h3>
+                <img src="./Assets/images/product4.jpg" alt="Product 4" class="product-image">
+                <div class="product-details">
+                    <p class="product-description">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </p>
+                    <p class="product-price">$29.99</p>
+                    <button class="buy-now">Buy Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
     
-
-<nav id="navbar" class="navbar">
-    <div class="logo">Products Cards Page</div>
-
-    <button
-        class="hamburger"
-        id="hamburger"
-        aria-label="Open navigation menu"
-        aria-expanded="false"
-        aria-controls="nav-links"
-        type="button"
-    >
-        <span></span>
-        <span></span>
-        <span></span>
-    </button>
-
-    <ul class="nav-links" id="nav-links">
-        <li class="nav-item"><a href="#">Home</a></li>
-        <li class="nav-item"><a href="#">About</a></li>
-        <li class="nav-item"><a href="#">Services</a></li>
-        <li class="nav-item"><a href="#">Contact</a></li>
-    </ul>
-</nav>
-
-
-
-
+    <footer class="site-footer">
+        <p>&copy; 2026 Aman Raheem. All rights reserved.</p>
+    </footer>
 
     <script src="./Assets/js/index.js"></script>
 </body>
+
 </html>
